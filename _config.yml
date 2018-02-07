@@ -1,0 +1,8 @@
+name: Tatar 
+title: Kaliningrad Tatars
+description: This site KPOO kardashlar
+markdown: redcarpet
+highlighter: rouge # or pygments or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+# baseurl: ""
+baseurl: ""
