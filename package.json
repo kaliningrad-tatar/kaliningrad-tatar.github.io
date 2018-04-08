@@ -37,5 +37,8 @@
   "bugs": {
     "url": "https://github.com/agragregra/jekyll-gulp-autoprefixer-sass-bourbon-jade-browser-sync/issues"
   },
-  "homepage": "https://github.com/agragregra/jekyll-gulp-autoprefixer-sass-bourbon-jade-browser-sync"
+  "homepage": "https://github.com/agragregra/jekyll-gulp-autoprefixer-sass-bourbon-jade-browser-sync",
+  "dependencies": {
+    "normalize-scss": "^7.0.1"
+  }
 }

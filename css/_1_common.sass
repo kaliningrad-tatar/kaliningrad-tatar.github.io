@@ -2,11 +2,50 @@ body
 	// color: $color
 	font-family: $main-font
 
-.box
-	background: grey
-	height: 500px
-	color: white
+.wrapper
+	min-height: 100%
+	margin-bottom: -50px
+nav 
+	position: sticky
+	top: 0
+	background: $accent
+	height: 40px
+	a
+		// background: grey
+		line-height: 40px
+		font-size: 20px
+		padding: 7px 10px
+		text-transform: uppercase
+		text-decoration: none
+		color: white
+		&:hover
+			background: white
+			color: $accent
+			text-decoration: none
+.footer, .push
+	height: 50px
+.footer
+	background: $accent
+	p
+		margin: 0
+		padding: 0
+		color: white
+		text-align: center
+		line-height: 50px
+		font-size: 16px
 
+header
+	height: 200px
+	background: $accent
+	position: relative 
+	h1
+		position: absolute
+		top: 50%
+		left: 50%
+		transform: translate(-50%, -50%)
+		margin: 0
+		font-size: 40px
+		color: white	
 // #header
 // 	position: relative
 // 	width: 100%
